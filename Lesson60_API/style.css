@@ -1,0 +1,25 @@
+#users {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+    gap: 50px;
+    justify-content: center;
+}
+
+.card {
+    background-color: darkgreen;
+    border: 5px solid lawngreen;
+    border-radius: 40px;
+    box-shadow: 5px 5px 10px 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+    margin-left: 20px;
+    color: white;
+}
+
+#word {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: darkgreen;
+}
